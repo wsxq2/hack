@@ -25,4 +25,4 @@ def force_cracking_md5(md5_hexdigest, dict_file='./dict.txt'):
 
 
 if __name__ == "__main__":
-    print force_cracking_md5(md5.new('admin').hexdigest())
+    print force_cracking_md5(md5.new('adm').hexdigest())

@@ -8,7 +8,7 @@
 import string
 
 
-def generate_dict(password_chars=string.lowercase, password_len=5, dict_file='dict.txt'):
+def generate_dict(password_chars=string.lowercase, password_len=3, dict_file='dict.txt'):
     """生成密码字典
 
     :password_chars: 密码所使用的字符
